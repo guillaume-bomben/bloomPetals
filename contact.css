@@ -1,0 +1,30 @@
+header{
+    background-color:green;
+    margin: -8px;
+}
+
+footer{
+    color:  green;
+    background: green;
+    margin: -8px;
+    padding: 30px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#link {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#searchbar{
+    background: greenyellow;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}

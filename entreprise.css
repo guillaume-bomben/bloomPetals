@@ -1,0 +1,49 @@
+header{
+    background-color:green;
+    margin: -8px;
+}
+
+footer{
+    color:  green;
+    background: green;
+    margin: -8px;
+    padding: 30px;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#link {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#searchbar{
+    background: greenyellow;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+
+.portrait{
+    width:200px;
+}
+
+#pres1,#pres2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#pk > p{
+    text-align: center;
+}
