@@ -16,10 +16,6 @@ footer{
     padding: 30px;
 }
 
-h1,h2{
-    text-align: center;
-}
-
 a:link{
     text-decoration: none;
     color: black;
@@ -40,36 +36,24 @@ a:link{
     border: none;
 }
 
-.portrait{
-    width:200px;
-
-    border-radius: 50%;
-}
-
-#pres1,#pres2{
+main{
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-flow: row wrap;
-    justify-content:space-around;
-    align-items: center;
+    justify-content: center;
 }
 
-#pk > p{
-    text-align: center;
-}
+.img{
+    width: 175px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 
-#pk{
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, 
-    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-}
-
-.mb{
-    margin-bottom: 10px;
-}
-
-h2{
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, 
-    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-
-    padding: 5px;
-    border-radius: 15px;
+    box-shadow: rgba(85, 240, 46, 0.4) 0px 5px,
+        rgba(88, 240, 46, 0.3) 0px 10px, 
+        rgba(91, 240, 46, 0.2) 0px 15px, 
+        rgba(88, 240, 46, 0.1) 0px 20px, 
+        rgba(137, 240, 46, 0.05) 0px 25px;
 }

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="contact.css">
     <title>contact</title>
 </head>
@@ -18,6 +22,24 @@
         </nav>
     </header>
 
+    <main>
+        <label for="civ"> Civilité</label>
+        <select name="civilité" id="civ">
+            <option value="">--choisir civilité--</option>
+            <option value="homme">M.</option>
+            <option value="femme">Mme</option>
+            <option value="autre">Autre</option>
+        </select>
+        <label for="name">Nom Prenom</label>
+        <input type="text" id="name">
+        <label for="adresse">Adresse Postale</label>
+        <input type="text" id="adresse">
+        <section>
+            <input type="checkbox" id="check">
+            <label for="check"> j'accepte les politiques de confidentialité</label>
+        </section>
+        <button>Envoyer</button>
+    </main>
 
     <footer> footer</footer>
 </body>

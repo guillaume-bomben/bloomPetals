@@ -1,3 +1,9 @@
+body{
+    background-image: url(Image/vege.jpg);
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+
 header{
     background-color:green;
     margin: -8px;
@@ -18,6 +24,7 @@ a:link{
 #link {
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -27,4 +34,20 @@ a:link{
     border-radius: 20px;
     text-align: center;
     border: none;
+}
+
+
+main{
+    display: flex;
+    flex-flow: column;
+    margin: 150px;
+
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, 
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+option,label{
+    text-align: center;
 }
